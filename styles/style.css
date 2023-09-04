@@ -11,8 +11,9 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  font-family: open sans;
-  color: #10214e;
+  font-family: 'Poppins', sans-serif; /* Use Poppins as the primary font, and fall back to a sans-serif font if Poppins is not available */
+  color: #F2E9E4;
+
 }
 
 article {
@@ -26,7 +27,7 @@ article {
   min-width: 20em;
   border-radius: 1rem;
   background: rgb(0,239,255);
-  background: linear-gradient(0deg, rgba(0,239,255,1) 40%, #4e54c8 100%);
+  background: linear-gradient(0deg, rgba(154, 140, 152) 40%, #4e54c8 100%);
   box-shadow: 0 0 20px 20px rgba(0,0,0,.1);
   transition: .25s;
 }
@@ -41,7 +42,7 @@ header {
 
 h1 {
   margin: 2rem 0 1rem;
-  color: rgba(0,239,255,1);
+  color: rgba(34, 34, 59);
 }
 
 button {
@@ -102,7 +103,7 @@ dl {
   margin-bottom: 0;
   padding: 5rem 0 3rem;
   text-align: center;
-  background: rgb(255,255,255);
+  background: rgb(114, 111, 177);
 }
 
 dt {
@@ -141,7 +142,7 @@ article > p {
   padding: 3rem 2rem;
   border-radius: 0 0 1rem 1rem;
   text-align: center;
-  background: rgba(255,255,255, 0.5);
+  background: rgba(34, 34, 59);
 }
 
 /* expand content */
